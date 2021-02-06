@@ -1,0 +1,17 @@
+GET https://apps.runescape.com/runemetrics/profile/profile?user=OuterRealm&activities=20
+
+### GRAND EXCHANGE
+
+### Categories
+GET https://services.runescape.com/m=itemdb_rs/api/catalogue/category.json?category=6
+
+### Ingredients
+GET https://services.runescape.com/m=itemdb_rs/api/catalogue/items.json?category=12&alpha=b&page=2
+
+### Item Detail
+GET https://services.runescape.com/m=itemdb_rs/api/catalogue/detail.json?item=2309
+
+
+###
+GET https://runescape.wiki/api.php?action=ask&query=%5B%5BItem+name%3A%3ABread%5D%5D%7C%3FItem+ID&format=json
+Content-Type: application/json
