@@ -22,6 +22,7 @@ client.on('message', message => {
   var command = content.shift()
   if(command === '!profile') {
     players.getPlayerProfile(content[0], 5).then(res => {
+      console.log(res)
       message.channel.send(JSON.stringify(res))
     })
     // message.channel.send(`fetching profile of: ${content.join(' ')}`)
